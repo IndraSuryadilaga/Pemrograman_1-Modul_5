@@ -3,15 +3,13 @@
 int maksimal(int a, int b) {
     if (b > a) {
         return b;
-    }
-    return a;
+    } return a;
 }
 
 int minimal(int a, int b) {
     if (b < a) {
         return b;
-    }
-    return a;
+    } return a;
 }
 
 int main() {
