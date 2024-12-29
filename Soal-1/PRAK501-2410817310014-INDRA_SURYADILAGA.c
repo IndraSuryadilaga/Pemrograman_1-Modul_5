@@ -4,15 +4,11 @@ int MaxBilangan(int a, int b, int c, int d) {
     int hasil = a;
     if (b > hasil){
         hasil = b;
-    }
-    if (c > hasil){
+    } if (c > hasil){
         hasil = c;
-    }
-    if (d > hasil){
+    } if (d > hasil){
         hasil = d;
-    }
-
-    return hasil;
+    } return hasil;
 }
 
 int main() {
